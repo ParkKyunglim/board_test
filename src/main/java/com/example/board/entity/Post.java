@@ -1,7 +1,7 @@
-package com.example.board.Entity;
+package com.example.board.entity;
 
-import com.example.board.DTO.PostCreateRequestDTO;
-import com.example.board.DTO.PostUpdateRequestDTO;
+import com.example.board.dto.PostCreateRequestDTO;
+import com.example.board.dto.PostUpdateRequestDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

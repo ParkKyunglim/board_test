@@ -1,12 +1,12 @@
-package com.example.board.Service;
+package com.example.board.service;
 
 
-import com.example.board.DTO.PostCreateRequestDTO;
-import com.example.board.DTO.PostListResponseDTO;
-import com.example.board.DTO.PostResponseDTO;
-import com.example.board.DTO.PostUpdateRequestDTO;
-import com.example.board.Entity.Post;
-import com.example.board.Repository.PostRepository;
+import com.example.board.dto.PostCreateRequestDTO;
+import com.example.board.dto.PostListResponseDTO;
+import com.example.board.dto.PostResponseDTO;
+import com.example.board.dto.PostUpdateRequestDTO;
+import com.example.board.entity.Post;
+import com.example.board.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

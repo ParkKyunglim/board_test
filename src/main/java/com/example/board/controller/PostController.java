@@ -1,12 +1,12 @@
-package com.example.board.Controller;
+package com.example.board.controller;
 
-import com.example.board.DTO.PostCreateRequestDTO;
-import com.example.board.DTO.PostListResponseDTO;
-import com.example.board.Entity.Post;
+import com.example.board.dto.PostCreateRequestDTO;
+import com.example.board.dto.PostListResponseDTO;
+import com.example.board.entity.Post;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
-import com.example.board.Service.PostService;
+import com.example.board.service.PostService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

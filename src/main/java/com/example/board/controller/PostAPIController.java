@@ -1,10 +1,10 @@
-package com.example.board.Controller;
+package com.example.board.controller;
 
-import com.example.board.DTO.PostCreateRequestDTO;
-import com.example.board.DTO.PostListResponseDTO;
-import com.example.board.DTO.PostResponseDTO;
-import com.example.board.DTO.PostUpdateRequestDTO;
-import com.example.board.Service.PostService;
+import com.example.board.dto.PostCreateRequestDTO;
+import com.example.board.dto.PostListResponseDTO;
+import com.example.board.dto.PostResponseDTO;
+import com.example.board.dto.PostUpdateRequestDTO;
+import com.example.board.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

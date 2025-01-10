@@ -1,12 +1,10 @@
-package com.example.board.DTO;
+package com.example.board.dto;
 
-import com.example.board.Entity.Post;
+import com.example.board.entity.Post;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.time.LocalDateTime;
 
 @Data
 @Builder
